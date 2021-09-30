@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "155110731323",
+    "firebase_url": "https://deep-bivouac-219017.firebaseio.com",
+    "project_id": "deep-bivouac-219017",
+    "storage_bucket": "deep-bivouac-219017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155110731323:android:dd0405c66c78c18b",
+        "android_client_info": {
+          "package_name": "br.org.cria.guardioes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155110731323-u62bj7n6648jc4atno6p9kns4kv2kvsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUInSUOBH_AjwzBjnZ1R86IH7Le63sbD4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

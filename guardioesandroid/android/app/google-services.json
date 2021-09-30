@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "464175623284",
+    "firebase_url": "https://guardioes-da-bio-1502300204194.firebaseio.com",
+    "project_id": "guardioes-da-bio-1502300204194",
+    "storage_bucket": "guardioes-da-bio-1502300204194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464175623284:android:dd0405c66c78c18b",
+        "android_client_info": {
+          "package_name": "br.org.cria.guardioes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464175623284-fstnfuca7tm0g24gcma9q00kq7k06ib3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.cria.guardioes",
+            "certificate_hash": "839aeb9e38d272634eabaa4b3ca71b2d2cc7cc57"
+          }
+        },
+        {
+          "client_id": "464175623284-7fnglke5kc7f76kdl0o9cvf6vm6t1920.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.cria.guardioes",
+            "certificate_hash": "e3a10c59a24a5c048897b7d35ca97bd676577491"
+          }
+        },
+        {
+          "client_id": "464175623284-uqujqe79gm3fplnft5raca1cbo1ec9ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.cria.guardioes",
+            "certificate_hash": "c52d4cf3d5ed1a6d994b9a1f5b53335089d5812f"
+          }
+        },
+        {
+          "client_id": "464175623284-1d5r78hm7anp6p616u9men7q9feb7tgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.cria.guardioes",
+            "certificate_hash": "3986ec39593f7456fab758ddb1e29c71c4013d25"
+          }
+        },
+        {
+          "client_id": "464175623284-jsujka5l9vl30md5oim6lq0knlc852aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_-it8O2dTjxE_UWU7VzQscBectErq6Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464175623284-jsujka5l9vl30md5oim6lq0knlc852aj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464175623284-d2svsbu2p67r01sdv7ben09r6j41ptq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.org.cria.guardioes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

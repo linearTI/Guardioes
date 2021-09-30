@@ -1,0 +1,1 @@
+cd node_modules && attrib -r /s && cd.. && rmdir android\app\build /s /q && rmdir android\build /s /q && cls && react-native run-android

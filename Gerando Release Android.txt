@@ -1,0 +1,39 @@
+OBS: O prompt cmd SEMPRE deve estar em modo Administrador
+
+
+1 - gerando chave release:
+
+keytool -J-Duser.language=en -genkey -v -keystore guardioesrelease.keystore -storepass linear -alias guardioesreleasekey -keypass linear -keyalg RSA -keysize 2048 -validity 10000
+
+
+keytool -delete -alias guardioesreleasekey -keystore guardioesrelease.keystore -storepass linear
+
+
+2 - Utilizar o arquivo "google-services.json.release" (remover o sufixo "release")
+
+3 - Comandos para gerar o apk:
+
+cd android
+gradlew assembleRelease
+
+4 - para instalar o apk release no celular, remova o aplicativo antes dele, e depois rode:
+
+react-native run-android --variant=release
+
+
+
+IMPORTANTE: A Keystore "guardioesrelease.keystore" está na pasta android\app
+
+OBS:
+ - Para adicionar certificado:
+
+keytool.exe -J-Duser.language=en -importcert -file upload_cert.der -keystore guardioesrelease.keystore -alias guardioesreleasekey
+
+- Para apagar alias:
+keytool -delete -alias guardioesreleasekey -keystore guardioesrelease.keystore -storepass linear
+
+
+Listar as Keys após criar:
+
+keytool -list -v -keystore E:\Projetos\Guardioes\trunk\android\app\guardioesrelease.keystore -alias guardioesreleasekey -storepass linear -keypass linear 
+keytool -list -v -keystore  C:\Projetos\Guardioes\branches\guardioesandroid\android\app\guardioesrelease.keystore -alias guardioesreleasekey -storepass linear -keypass linear 

@@ -1,0 +1,145 @@
+{
+  "project_info": {
+    "project_number": "106547273323",
+    "firebase_url": "https://guardioes-da-biodiversidade.firebaseio.com",
+    "project_id": "guardioes-da-biodiversidade",
+    "storage_bucket": "guardioes-da-biodiversidade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106547273323:android:dd0405c66c78c18b",
+        "android_client_info": {
+          "package_name": "br.org.cria.guardioes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106547273323-9n4s72e6u13m0ajcop7fieubv935go54.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106547273323-dofjoudhr5807jedrbkturi71q27ivr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.cria.guardioes",
+            "certificate_hash": "839aeb9e38d272634eabaa4b3ca71b2d2cc7cc57"
+          }
+        },
+        {
+          "client_id": "106547273323-4vqthcn7dt6sb07jf2j3cdpsnrn64taf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcajECTk3dRWk5_EN0yVcJRsrif1oEhYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106547273323-9n4s72e6u13m0ajcop7fieubv935go54.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106547273323-s7vud1g19n790g45mgc48g2ogns1136r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.guardioes"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106547273323:android:f6d99550a308d9de",
+        "android_client_info": {
+          "package_name": "com.guardioes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106547273323-9n4s72e6u13m0ajcop7fieubv935go54.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106547273323-4vqthcn7dt6sb07jf2j3cdpsnrn64taf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106547273323-g1dt9m3448ugth89qv3fsul7okl370n9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardioes",
+            "certificate_hash": "839aeb9e38d272634eabaa4b3ca71b2d2cc7cc57"
+          }
+        },
+        {
+          "client_id": "106547273323-0nnacsea8p7r8t11cmeepuk7nj6jgn1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardioes",
+            "certificate_hash": "3986ec39593f7456fab758ddb1e29c71c4013d25"
+          }
+        },
+        {
+          "client_id": "106547273323-rfbejvtd2q30od81s8skfib2s89277uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardioes",
+            "certificate_hash": "1f34228d1c9f385c147b7af1e476f199f591416d"
+          }
+        },
+        {
+          "client_id": "106547273323-j3ho0ld59km0jtrp7aene60bcp8h21vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardioes",
+            "certificate_hash": "c52d4cf3d5ed1a6d994b9a1f5b53335089d5812f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcajECTk3dRWk5_EN0yVcJRsrif1oEhYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106547273323-9n4s72e6u13m0ajcop7fieubv935go54.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106547273323-s7vud1g19n790g45mgc48g2ogns1136r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.guardioes"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

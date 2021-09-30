@@ -1,0 +1,10 @@
+{
+    "version": 5,
+    "upgrades": {
+      "to_v1": [["CREATE TABLE IF NOT EXISTS VersionDatabase( Version INTEGER NOT NULL );" ]],
+      "to_v2": [["ALTER TABLE ContributionModel ADD Verbatimeventdate DATETIME;"]],
+      "to_v3": [["ALTER TABLE ContributionModel ADD PhotoEventdate  DATETIME;"]],
+      "to_v4": [["ALTER TABLE GuardianModel ADD  Welcome BOOLEAN;"]],
+      "to_v5": [["INSERT INTO VersionDatabase (Version) VALUES(5);"]]
+    }
+  }

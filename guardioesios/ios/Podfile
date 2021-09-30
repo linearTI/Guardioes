@@ -1,0 +1,31 @@
+platform :ios, '9.0'
+target 'Guardioes' do
+    pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga/Yoga.podspec'
+    pod 'GoogleMaps'
+      pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+      pod 'react-native-sqlite-storage', :path => '../node_modules/react-native-sqlite-storage'
+
+      pod 'React', :subspecs => [
+        'Core',
+        'RCTGeolocation',
+        'RCTImage',
+        'DevSupport',
+      ], :path => '../node_modules/react-native'
+    pod 'Google/SignIn'
+
+    pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+    pod 'react-native-image-resizer', :path => '../node_modules/react-native-image-resizer'
+
+
+    pod 'react-native-twitter-signin', :path => '../node_modules/react-native-twitter-signin'
+    pod 'TwitterKit', '~> 3.3.0'
+    post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            if target.name == "React"
+                target.remove_from_project
+            end
+        end
+    end
+end
